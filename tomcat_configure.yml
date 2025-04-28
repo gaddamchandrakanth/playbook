@@ -1,0 +1,5 @@
+---
+- name: configure tomcat10 
+  hosts: all
+  roles:
+    - tomcat
