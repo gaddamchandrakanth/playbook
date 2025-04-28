@@ -1,0 +1,13 @@
+---
+a: apache2
+b: present
+c: yes
+d: index.html
+e: /var/www/html/index.html
+f: restarted
+g: http://172.31.88.151
+h: http://172.31.80.9
+i: 200
+j: 10
+k: successfully installed Apache2
+

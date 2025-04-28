@@ -1,0 +1,9 @@
+---
+- name: restart the Apache2
+  service:
+    name: "{{a}}"
+    state: "{{f}}"
+- name: pause for 10 seconds
+  pause:
+    seconds: "{{j}}"
+

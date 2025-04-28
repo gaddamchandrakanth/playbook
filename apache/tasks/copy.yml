@@ -1,0 +1,6 @@
+---
+- name: change the index.html file
+  copy:
+    src: "{{d}}"
+    dest: "{{e}}"
+  notify: restart the Apache2

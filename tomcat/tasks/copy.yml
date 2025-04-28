@@ -1,0 +1,6 @@
+---
+- name: copy tomcat-user.xml file in all servers
+  copy:
+    src: tomcat-user.xml
+    dest: /etc/tomcat10
+  notify: restart the tomcat10

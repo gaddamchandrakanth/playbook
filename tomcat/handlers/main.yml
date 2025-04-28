@@ -1,0 +1,8 @@
+---
+- name: restart the tomcat10
+  service:
+    name: "{{a}}"
+    state: "{{f}}"
+- name: pause for 10 seconds
+  pause:
+    seconds: "{{j}}"

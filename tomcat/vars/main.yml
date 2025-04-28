@@ -1,0 +1,12 @@
+---
+a: tomcat10
+b: tomcat10-admin
+c: present
+d: yes
+e: no
+f: restarted
+g: http://172.31.88.151:8080
+h: http://172.31.80.9:8080
+i: 200
+j: 10
+

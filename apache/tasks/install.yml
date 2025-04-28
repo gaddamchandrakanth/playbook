@@ -1,0 +1,6 @@
+---
+- name: install apache in all servers
+  apt:
+    name: "{{a}}"
+    state: "{{b}}"
+    update_cache: "{{c}}"

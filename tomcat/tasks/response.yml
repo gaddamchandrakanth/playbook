@@ -1,0 +1,8 @@
+---
+- name: check the response of all servers
+  uri:
+    url: "{{item}}"
+    status_code: "{{i}}"
+  with_items:
+    - "{{g}}"
+    - "{{h}}"
